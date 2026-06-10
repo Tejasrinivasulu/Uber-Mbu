@@ -816,7 +816,7 @@ export const DriverEmergencySection: React.FC<DriverSectionProps> = ({ driver, s
                     <div className="mbu-driver-card text-center">
                         <i className="fas fa-headset fa-2x mb-2" style={{ color: 'var(--drv-primary)' }}></i>
                         <h5 className="mb-2">Contact Admin</h5>
-                        <p className="small text-muted mb-3">Get help from MBU Ride support team.</p>
+                        <p className="small text-muted mb-3">Get help from MBUGO support team.</p>
                         <button type="button" className="mbu-driver-btn mbu-driver-btn-outline mbu-driver-btn-sm" onClick={() => showNotification('Support', 'Support ticket raised. Admin will contact you shortly.')}>
                             Raise Ticket
                         </button>

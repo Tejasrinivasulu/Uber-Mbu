@@ -50,7 +50,7 @@ const AppContent: React.FC = () => {
   const { authUser, student, driver, loading, view } = useFirebase();
 
   if (loading) {
-    return <AppLoader message="Starting MBU Ride..." />;
+    return <AppLoader message="Starting MBUGO..." />;
   }
 
   if (!authUser) {
@@ -66,7 +66,7 @@ const AppContent: React.FC = () => {
 
   if (role === UserRole.STUDENT && userLoaded) {
     return (
-      <Suspense fallback={<AppLoader message="Loading MBU Ride..." />}>
+      <Suspense fallback={<AppLoader message="Loading MBUGO..." />}>
         <StudentDashboard />
       </Suspense>
     );

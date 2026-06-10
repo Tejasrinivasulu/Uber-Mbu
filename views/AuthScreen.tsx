@@ -71,7 +71,7 @@ export const AuthScreen: React.FC = () => {
                 <div className="auth-form-card">
                     <div className="auth-brand text-center">
                         <h1 className="auth-brand-title">
-                            <span>UBER</span> <span className="auth-brand-mbu">MBU</span>
+                            <span>MBU</span><span className="auth-brand-mbu">GO</span>
                         </h1>
                     </div>
 

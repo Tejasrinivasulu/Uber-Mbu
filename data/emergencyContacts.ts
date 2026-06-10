@@ -1,6 +1,6 @@
 export const CAMPUS_EMERGENCY_CONTACT = {
-    name: 'MBU Ride Emergency',
-    phone: '9392999309',
+    name: 'MBUGO Emergency',
+    phone: '8984298984',
 } as const;
 
 export const formatIndianPhone = (phone: string) =>

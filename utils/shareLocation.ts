@@ -13,7 +13,7 @@ export function buildShareMessage(studentName: string, location: LiveLocation): 
     const url = getGoogleMapsUrl(location.lat, location.lng);
     const time = location.updatedAt.toLocaleTimeString();
     const accuracy = location.accuracy ? ` (±${Math.round(location.accuracy)}m)` : '';
-    return `🚨 MBU Ride - ${studentName} is sharing live location${accuracy} at ${time}: ${url}`;
+    return `🚨 MBUGO - ${studentName} is sharing live location${accuracy} at ${time}: ${url}`;
 }
 
 export async function shareLiveLocation(options: {
@@ -32,7 +32,7 @@ export async function shareLiveLocation(options: {
 
     if (navigator.share) {
         try {
-            await navigator.share({ title: 'My Live Location - MBU Ride', text: message, url });
+            await navigator.share({ title: 'My Live Location - MBUGO', text: message, url });
             return 'shared';
         } catch (err) {
             if ((err as Error).name === 'AbortError') throw err;
