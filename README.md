@@ -18,7 +18,9 @@ The app uses a modern **teal & white** UI, works in the browser with **local sto
 8. [Emergency Contact](#emergency-contact)
 9. [Project Structure](#project-structure)
 10. [Build for Production](#build-for-production)
-11. [Notes & Limitations](#notes--limitations)
+11. [Deploy to Netlify](#deploy-to-netlify)
+12. [Deploy to Vercel](#deploy-to-vercel)
+13. [Notes & Limitations](#notes--limitations)
 
 ---
 
@@ -95,7 +97,8 @@ Follow these steps in order:
 ### Step 1 — Download the project
 ```bash
 # If using Git
-git clone <repository-url>```
+git clone <repository-url>
+```
 
 Or extract the downloaded ZIP and open the folder in your terminal.
 
@@ -285,7 +288,190 @@ npm run build
 npm run preview
 ```
 
-The built files are output to the `dist/` folder. Deploy `dist/` to any static hosting service (Netlify, Vercel, GitHub Pages, etc.).
+The built files are output to the `dist/` folder.
+
+---
+
+## Deploy to Netlify
+
+The project includes a `netlify.toml` file with the correct build settings.
+
+### Method 1 — Deploy from GitHub (recommended)
+
+1. **Push your project to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "MBUGO campus shuttle app"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git push -u origin main
+   ```
+
+2. **Sign in to Netlify**
+   - Go to [https://app.netlify.com](https://app.netlify.com)
+   - Sign up or log in (use GitHub login for easiest setup)
+
+3. **Add a new site**
+   - Click **Add new site** → **Import an existing project**
+   - Choose **GitHub** and authorize Netlify
+   - Select your repository
+
+4. **Build settings** (auto-filled from `netlify.toml`)
+   | Setting | Value |
+   |---------|-------|
+   | Build command | `npm run build` |
+   | Publish directory | `dist` |
+
+5. Click **Deploy site**
+
+6. Wait 1–2 minutes. Netlify gives you a live URL like:
+   ```
+   https://random-name-12345.netlify.app
+   ```
+
+7. **Optional:** Site settings → **Domain management** → change site name to something like `mbugo.netlify.app`
+
+---
+
+### Method 2 — Drag & drop (no GitHub)
+
+1. Build locally:
+   ```bash
+   npm install
+   npm run build
+   ```
+
+2. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
+
+3. Drag the **`dist`** folder onto the page
+
+4. Your site is live instantly
+
+> Re-deploy manually each time you make changes.
+
+---
+
+### Method 3 — Netlify CLI
+
+1. Install Netlify CLI:
+   ```bash
+   npm install -g netlify-cli
+   ```
+
+2. Login:
+   ```bash
+   netlify login
+   ```
+
+3. From the project folder:
+   ```bash
+   npm run build
+   netlify deploy --prod
+   ```
+
+4. Follow prompts — publish directory is **`dist`**
+
+---
+
+### After deployment
+
+- Open your Netlify URL and test login with `student@test.com` / `password`
+- **localStorage** works per browser — each visitor has their own demo data
+- To redeploy after code changes: push to GitHub (Method 1) or run `netlify deploy --prod` again (Method 3)
+
+---
+
+## Deploy to Vercel
+
+The project includes a `vercel.json` file with the correct Vite build settings.
+
+### Method 1 — Deploy from GitHub (recommended)
+
+1. **Push your project to GitHub** (if not already done)
+   ```bash
+   git init
+   git add .
+   git commit -m "MBUGO campus shuttle app"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git push -u origin main
+   ```
+
+2. **Sign in to Vercel**
+   - Go to [https://vercel.com](https://vercel.com)
+   - Sign up or log in (use **Continue with GitHub** for easiest setup)
+
+3. **Import project**
+   - Click **Add New…** → **Project**
+   - Import your GitHub repository
+   - Vercel auto-detects **Vite**
+
+4. **Build settings** (auto-filled from `vercel.json`)
+   | Setting | Value |
+   |---------|-------|
+   | Framework Preset | Vite |
+   | Build command | `npm run build` |
+   | Output directory | `dist` |
+   | Install command | `npm install` |
+
+5. Click **Deploy**
+
+6. Wait 1–2 minutes. You get a live URL like:
+   ```
+   https://mbugo.vercel.app
+   ```
+   or `https://your-project-name.vercel.app`
+
+7. **Optional:** Project **Settings** → **Domains** → add a custom domain
+
+---
+
+### Method 2 — Vercel CLI (no GitHub UI)
+
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
+
+2. From your project folder:
+   ```bash
+   vercel login
+   vercel
+   ```
+
+3. Answer the prompts:
+   - Set up and deploy? **Y**
+   - Which scope? → your account
+   - Link to existing project? **N** (first time)
+   - Project name? → `mbugo` (or any name)
+   - Directory? → `./` (press Enter)
+   - Override settings? **N** (uses `vercel.json`)
+
+4. For **production** deploy:
+   ```bash
+   vercel --prod
+   ```
+
+---
+
+### After Vercel deployment
+
+- Open your Vercel URL and test login: `student@test.com` / `password`
+- Data is stored in each visitor's **browser localStorage** (no server database)
+- Every **git push** to `main` auto-redeploys if GitHub is connected
+- Check build logs under **Deployments** if something fails
+
+### Vercel vs Netlify (for this project)
+
+| | Vercel | Netlify |
+|---|--------|---------|
+| Best for | React / Vite apps | Static sites |
+| Free tier | Yes | Yes |
+| Auto deploy from Git | Yes | Yes |
+| Config file | `vercel.json` | `netlify.toml` |
+
+Both work perfectly for MBUGO — use whichever you prefer.
 
 ---
 
@@ -307,6 +493,8 @@ The built files are output to the `dist/` folder. Deploy `dist/` to any static h
 | **Run Command** | `npm install` → `npm run dev` |
 | **Student Login** | `student@test.com` / `password` |
 | **Driver Login** | `driver@test.com` / `password` |
+| **Emergency** | 8984298984 |
+
 ---
 
 **MBUGO** — *Fast, safe, student-friendly campus rides.*
