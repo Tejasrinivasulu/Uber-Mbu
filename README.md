@@ -95,9 +95,7 @@ Follow these steps in order:
 ### Step 1 — Download the project
 ```bash
 # If using Git
-git clone <repository-url>
-cd Campus-Shuttle-main
-```
+git clone <repository-url>```
 
 Or extract the downloaded ZIP and open the folder in your terminal.
 
@@ -239,7 +237,6 @@ You can also click **Login as Student** or **Login as Driver** on the demo panel
 | Field | Value |
 |-------|-------|
 | **Name** | MBUGO Emergency |
-| **Phone** | **8984298984** |
 | **Available on** | Student & Driver emergency pages |
 
 Students can also save a **personal emergency contact** in **Profile** for SOS and location sharing.
