@@ -307,8 +307,6 @@ The built files are output to the `dist/` folder. Deploy `dist/` to any static h
 | **Run Command** | `npm install` → `npm run dev` |
 | **Student Login** | `student@test.com` / `password` |
 | **Driver Login** | `driver@test.com` / `password` |
-| **Emergency** | 8984298984 |
-
 ---
 
 **MBUGO** — *Fast, safe, student-friendly campus rides.*
