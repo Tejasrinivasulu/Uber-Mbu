@@ -222,9 +222,8 @@ You can also click **Login as Student** or **Login as Driver** on the demo panel
 1. Open **Emergency** from the sidebar
 2. **SOS** — tap the red button to alert security (confirmation modal)
 3. **Share Location** — share live GPS via WhatsApp or clipboard
-4. **Emergency Contact** — call campus hotline **8984298984**
-5. **Contact Admin** — raise a support ticket
-6. Read **Safety Guidelines** at the bottom
+4. **Contact Admin** — raise a support ticket
+5. Read **Safety Guidelines** at the bottom
 
 ---
 
@@ -493,8 +492,6 @@ Both work perfectly for MBUGO — use whichever you prefer.
 | **Run Command** | `npm install` → `npm run dev` |
 | **Student Login** | `student@test.com` / `password` |
 | **Driver Login** | `driver@test.com` / `password` |
-| **Emergency** | 8984298984 |
-
 ---
 
 **MBUGO** — *Fast, safe, student-friendly campus rides.*
