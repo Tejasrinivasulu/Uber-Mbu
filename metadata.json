@@ -1,0 +1,7 @@
+{
+  "name": "AutoMate",
+  "description": "A Progressive Web App for a campus ride-hailing service, connecting passengers and drivers. Features include real-time booking, live tracking, and driver incentives.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
