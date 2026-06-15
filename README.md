@@ -16,8 +16,7 @@ Book Rides • Track Trips • Manage Earnings • Travel Safely
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-
-<br><br>
+<br>
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&pause=1000&color=00BFA6&center=true&vCenter=true&width=800&lines=Smart+Campus+Transportation+System;Book+Auto+Rides+in+Seconds;Safe+and+Affordable+Campus+Travel;Student+and+Driver+Management;AI+Powered+Ride+Planner">
 
 </div>
