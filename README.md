@@ -105,42 +105,6 @@ Uber MBU is a smart campus transportation platform developed for Mohan Babu Univ
 
 ---
 
-# 📷 Application Screens
-
-### Authentication
-
-✅ Login
-
-✅ Signup
-
-### Student Portal
-
-✅ Dashboard
-
-✅ Ride Booking
-
-✅ Nearby Autos
-
-✅ Wallet
-
-✅ Ride Planner
-
-✅ Emergency Page
-
-### Driver Portal
-
-✅ Driver Dashboard
-
-✅ Ride Requests
-
-✅ Active Ride Tracking
-
-✅ Earnings Analytics
-
-✅ Ride History
-
----
-
 # 🛠 Technology Stack
 
 | Category | Technology |
