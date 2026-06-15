@@ -27,32 +27,7 @@ Book Rides • Track Trips • Manage Earnings • Travel Safely
 
 # 📖 About Uber MBU
 
-Uber MBU is a modern web-based campus transportation platform designed exclusively for Mohan Babu University students and auto drivers.
-
-The platform simplifies campus transportation by providing:
-
-✅ Instant Ride Booking
-
-✅ Shared Ride Booking
-
-✅ Scheduled Ride Planning
-
-✅ Nearby Auto Discovery
-
-✅ Live Route Tracking
-
-✅ Driver Earnings Dashboard
-
-✅ Wallet Management
-
-✅ Emergency SOS Services
-
-✅ AI-Powered Ride Planner
-
-✅ Light & Dark Themes
-
-Uber MBU creates a safe, efficient, and affordable mobility ecosystem for students and drivers.
-
+Uber MBU is a smart campus transportation platform developed for Mohan Babu University students and auto drivers. It enables users to book instant, shared, and scheduled rides, track routes, manage wallets and earnings, and access emergency safety features. With AI-powered ride planning and a modern responsive interface, Uber MBU makes campus travel safe, convenient, and efficient.
 ---
 
 # ✨ Key Features
@@ -321,39 +296,6 @@ Receive Earnings
 
 ---
 
-# 🌙 Theme Support
-
-### ☀️ Light Theme
-
-Modern clean user interface.
-
-### 🌙 Dark Theme
-
-Comfortable low-light experience.
-
-Switch instantly using the theme toggle button.
-
----
-
-# 📊 Analytics Dashboard
-
-## Student Analytics
-
-- Total Rides
-- Wallet Usage
-- Monthly Trips
-- Ride History
-
-## Driver Analytics
-
-- Total Earnings
-- Daily Revenue
-- Weekly Revenue
-- Ride Completion Rate
-- Performance Charts
-
----
-
 # 🌐 Deployment
 
 ## Netlify
@@ -399,41 +341,6 @@ Automatic deployment supported through GitHub.
 
 ---
 
-# 👨‍💻 Developer
-
-## Teja Srinivasulu
-
-🎓 B.Tech CSE Student
-
-💻 Full Stack Developer
-
-🏆 ISTE Club Coordinator
-
-🚀 Hackathon Enthusiast
-
-🏅 ServiceNow CSA Certified
-
-🏅 ServiceNow CAD Certified
-
-🥉 NHETIS Hackathon – 3rd Prize Winner
-
-📍 Mohan Babu University
-
----
-
-# ⭐ Support
-
-If you found this project useful:
-
-⭐ Star this repository
-
-🍴 Fork this repository
-
-📢 Share with friends
-
-💡 Contribute new features
-
----
 
 <div align="center">
 
@@ -443,7 +350,7 @@ If you found this project useful:
 
 ### Fast • Safe • Reliable • Affordable
 
-Made with ❤️ using React, TypeScript, Bootstrap, Leaflet and Innovation
+Made with ❤️ UberMbu
 
 ⭐ Star this Repository if you like the project ⭐
 
