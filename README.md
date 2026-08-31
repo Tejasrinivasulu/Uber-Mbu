@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/3097/3097144.png" width="120"/>
-
 # 🚖 Uber MBU
 
 ### Smart Campus Auto Booking Platform for Mohan Babu University
