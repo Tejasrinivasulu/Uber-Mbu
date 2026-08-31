@@ -25,7 +25,7 @@ Book Rides • Track Trips • Manage Earnings • Travel Safely
 
 # 📖 About Uber MBU
 
-Uber MBU is a smart campus transportation platform developed for Mohan Babu University students and auto drivers. It enables users to book instant, shared, and scheduled rides, track routes, manage wallets and earnings, and access emergency safety features. With AI-powered ride planning and a modern responsive interface, Uber MBU makes campus travel safe, convenient, and efficient.
+Uber MBU is a smart campus transportation platform developed for Mohan Babu University students and auto drivers. With AI-powered ride planning and a modern responsive interface, Uber MBU makes campus travel safe, convenient, and efficient.
 ---
 
 # ✨ Key Features
@@ -106,7 +106,8 @@ Uber MBU is a smart campus transportation platform developed for Mohan Babu Univ
 ---
 
 # 🛠 Technology Stack
-
+<div align="center">
+ 
 | Category | Technology |
 |------------|------------|
 | Frontend | React 19 |
@@ -120,7 +121,8 @@ Uber MBU is a smart campus transportation platform developed for Mohan Babu Univ
 | AI Integration | Google Gemini API |
 | Icons | Font Awesome 6 |
 | Fonts | Inter |
-
+ 
+</div>
 ---
 
 # 📂 Project Structure
@@ -214,50 +216,6 @@ Password: password
 
 ---
 
-# 🔄 Student Workflow
-
-```text
-Login
- ↓
-Select Ride Type
- ↓
-Choose Pickup
- ↓
-Choose Destination
- ↓
-View Fare Estimate
- ↓
-Book Ride
- ↓
-Track Driver
- ↓
-Complete Ride
-```
-
----
-
-# 🔄 Driver Workflow
-
-```text
-Login
- ↓
-Go Online
- ↓
-Receive Request
- ↓
-Accept Ride
- ↓
-Navigate to Pickup
- ↓
-Pick Student
- ↓
-Complete Trip
- ↓
-Receive Earnings
-```
-
----
-
 # 🌐 Deployment
 
 ## Netlify
@@ -285,21 +243,6 @@ vercel --prod
 https://vercel.com
 
 Automatic deployment supported through GitHub.
-
----
-
-# 🎯 Future Enhancements
-
-- 🔴 Real-Time GPS Tracking
-- 💳 Online Payments
-- 📱 Android Application
-- 🍎 iOS Application
-- 🔔 Push Notifications
-- 🤖 AI Route Optimization
-- 🧾 Smart Digital Receipts
-- 📈 Advanced Analytics
-- 🎫 Student Discount Passes
-- 🚍 Campus Shuttle Integration
 
 ---
 
